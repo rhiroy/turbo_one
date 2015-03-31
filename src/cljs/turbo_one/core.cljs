@@ -4,7 +4,8 @@
               [secretary.core :as secretary :include-macros true]
               [goog.events :as events]
               [goog.history.EventType :as EventType]
-              [cljsjs.react :as react])
+              [cljsjs.react :as react]
+              [turbo-one.firstform :refer [firstform]])
     (:import goog.History))
 
 ;; -------------------------
@@ -20,6 +21,7 @@
     [:li "and CSS"]
     [:li "and Clojure"]
     [:li "and webdev in general"]]
+   [:div [:a {:href "#/firstform"} "go to our first form!"]]
    [:div [:a {:href "#/about"} "go to about page"]]])
 
 (defn about-page []
@@ -48,6 +50,9 @@
 
 (secretary/defroute "/about" []
   (session/put! :current-page #'about-page))
+
+(secretary/defroute "/firstform" []
+  (session/put! :current-page #'firstform))
 
 ;; -------------------------
 ;; History
