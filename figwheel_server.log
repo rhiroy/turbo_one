@@ -1,5 +1,6 @@
 Figwheel: focusing on build-ids (app)
 [0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+<<<<<<< HEAD
 [32mSuccessfully compiled "resources/public/js/app.js" in 0.378 seconds.[0m
 notifying browser that file changed:  resources/public/js/out/goog/deps.js
 notifying browser that file changed:  resources/public/js/out/cljs_deps.js
@@ -133,3 +134,41 @@ notifying browser that file changed:  /turbo_one/core.js
 [0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
 [32mSuccessfully compiled "resources/public/js/app.js" in 0.591 seconds.[0m
 notifying browser that file changed:  /turbo_one/core.js
+=======
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.292 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /turbo_one/core.js
+notifying browser that file changed:  /turbo_one/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.946 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /turbo_one/core.js
+notifying browser that file changed:  /turbo_one/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.409 seconds.[0m
+notifying browser that file changed:  /turbo_one/core.js
+notifying browser that file changed:  /turbo_one/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.214 seconds.[0m
+notifying browser that file changed:  /turbo_one/core.js
+notifying browser that file changed:  /turbo_one/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.557 seconds.[0m
+notifying browser that file changed:  /turbo_one/core.js
+notifying browser that file changed:  /turbo_one/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var cljs.core/for at line 20 src/cljs/turbo_one/core.cljs
+WARNING: Use of undeclared Var turbo-one.core/x at line 20 src/cljs/turbo_one/core.cljs
+WARNING: Use of undeclared Var turbo-one.core/in at line 20 src/cljs/turbo_one/core.cljs
+WARNING: Use of undeclared Var turbo-one.core/mylist at line 20 src/cljs/turbo_one/core.cljs
+WARNING: Use of undeclared Var turbo-one.core/x at line 22 src/cljs/turbo_one/core.cljs
+WARNING: Use of undeclared Var turbo-one.core/x at line 22 src/cljs/turbo_one/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.606 seconds.[0m
+notifying browser that file changed:  /turbo_one/core.js
+notifying browser that file changed:  /turbo_one/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.343 seconds.[0m
+notifying browser that file changed:  /turbo_one/core.js
+notifying browser that file changed:  /turbo_one/dev.js
+>>>>>>> d61d16c58f62928f04115963ef79a3de6b227ff3
