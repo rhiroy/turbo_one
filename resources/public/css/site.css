@@ -1,5 +1,5 @@
 body {
-  font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Verdana, Helvetica, Arial, sans-serif;
   max-width: 600px;
   margin: 0 auto;
   padding-top: 72px;
@@ -32,3 +32,15 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.center-children {
+  text-align: center;
+}
+
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+
