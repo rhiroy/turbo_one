@@ -16,6 +16,7 @@
    [:p "OMG I think Rhiannon will dominate this"]
    [:ul
     [:li "she'll learn all the HTML - yep"]
+    [:li "here is my awesome new change!"]
     [:li "and CSS"]
     [:li "and Clojure"]
     [:li "and webdev in general"]]
