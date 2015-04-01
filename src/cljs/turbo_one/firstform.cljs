@@ -2,7 +2,8 @@
 
 
 (defn header []
-   [:h4.center-children "NO. _________________"]
+  [:div
+  [:h4.center-children "NO. _________________"]
    [:table.center
     [:tr
      [:td [:input {:type "text" :value "Your name here"}]]
@@ -31,7 +32,7 @@
     [:tr
      [:td "DEFENDANT."]
      [:td ")"]
-     [:td ""]]])
+     [:td ""]]]])
 
 (defn firstform []
   [:div
@@ -39,8 +40,8 @@
    [:p.center-children [:strong [:ins "PLAINTIFF'S ORIGINAL PETITION"]]]
    [:p "TO THE HONORABLE JUDGE OF THE COURT:"]
    [:p "     Plaintiff files this original petition in the the above-styled and numbered cause, and in support, shows the Court as follows:"]
-   
-   [:p.center-children [:b "I. DISCOVERY"]] 
+
+   [:p.center-children [:b "I. DISCOVERY"]]
    [:ol
     [:li "Plaintiff intends to conduct discovery under Level 1."]]
     [:p.center-children [:b "II. PARTIES"]]
@@ -61,5 +62,5 @@
     [:li "civil penalties if available under law;"]
     [:li "court costs; and"]
     [:li "any other relief to which Plaintiff is entitled."]]
-   
+   [:div.right [:p"Respectfully submitted,"] [:input {:type "text" :value "Your signature"}] [:input {:type "text" :value "Your printed name"}] [:input {:type "text" :value "Your address"}] [:input {:type "text" :value "Your City, State, Zip"}] [:input {:type "text" :value "Your Phone Number"}]]
    ])
