@@ -2,6 +2,7 @@
 
 
 (defn header []
+  [:div
    [:h4.center-children "NO. _________________"]
    [:table.center
     [:tr
@@ -31,7 +32,7 @@
     [:tr
      [:td "DEFENDANT."]
      [:td ")"]
-     [:td ""]]])
+     [:td ""]]]])
 
 (defn firstform []
   [:div
