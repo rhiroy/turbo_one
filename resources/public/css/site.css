@@ -34,95 +34,11 @@ a:hover {
 }
 
 
-.center {
-    margin-left:auto;
-    margin-right:auto;
-  }
-
-.center2 {
-    margin: 0 auto;
-    width: 100px;
-    }
-
-.center-div
-{
-     position: absolute;
-     margin: auto;
-     top: 0;
-     right: 0;
-     bottom: 0;
-     left: 0;
-     width: 100px;
-     height: 100px;
-     background-color: #ccc;
-}
-
-.Absolute-Center {
-  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
-}
-
-.center3 {
-  position:absolute;
-  width:50px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
 
 .centered { text-align: center; list-style-position:inside;}
 
 .center-children {
   text-align: center;
-}
-
-.center4 {
-    position: relative;
-    left:50%;
-    }
-
-
-.center5 {
-    position: relative;
-    left:-50%;
-    }
-
-.center6 {
-    position: absolute;
-width: 600px;
-left: 50%
-margin-left: -300px;
-}
-
-.center7 {
-    width: 40%;
-    margin: 0 auto;
-}
-
-
-.outer {
-  width: 100%;
-  text-align: center;
-}
-
-.inner {
-  display: inline-block;
-}
-.inflow {
-  width: 200px;
-  height: 1000px;
-  float: right;
-  position: relative;
-  margin-right: 100px;
-}
-.positioner {position: absolute; right: 0;} /*may not be needed: see below*/
-.fixed {
-  width: 80px;
-  height: 100px;
-
-  top: 60px;
-  margin-left: 15px;
 }
 
 .notes {
